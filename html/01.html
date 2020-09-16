@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div id="wrap">
+    <header></header>
+    <div class="contents">
+        <h2 class="page-title">REPORT <span>관리</span></h2>
+        <div class="top-wrap">
+            <div class="sort-wrap">
+                <ul class="nav nav-tabs" role="tablist" id="myTab">
+                    <li role="presentation" class="active">
+                        <a href="#magazine" aria-controls="magazine" role="tab" data-toggle="tab"><span class="hidden">magazine type</span></a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#list" aria-controls="list" role="tab" data-toggle="tab"><span class="hidden">list type</span></a>
+                    </li>
+                </ul>
+                <div class="selecting">
+                </div>
+            </div>
+            <div class="search fl-right mt-0">
+                <input type="text" placeholder="검색어를 입력해주세요.">
+                <button type="button" class="btn-search">search</button>
+            </div>
+        </div>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="magazine">
+                <ul class="product-list" data-column="4">
+                    <li>
+                        <a href="#">
+                            <div class="thumb">
+                                <img src="https://dummyimage.com/190x190/f7f7f7/000000.jpg" alt="product image">
+                            </div>
+                            <div class="badge-wrap">
+                                <span class="badge-watch">
+                                    <i class="ico-view"></i>10,000
+                                </span>
+                            </div>
+                            <div class="tit">NIKE DIRECT AM90</div>
+                            <div class="sub">NIKE DIRECT AM90</div>
+                            <p class="date">2020.01.01 ~ 2020.01.01</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="list">
+                <ul class="product-list" data-column="4">
+                    <li>
+                        <a href="#">
+                            <div class="thumb">
+                                <img src="https://dummyimage.com/190x190/f7f7f7/000000.jpg" alt="product image">
+                            </div>
+                            <div class="product-item">
+                                <div class="badge-watch"><i class="ico-view"></i>10,000</div>
+                                <div class="info">
+                                    <div class="tit">NIKE DIRECT AM90</div>
+                                    <div class="sub">NIKE DIRECT AM90</div>
+                                    <div class="option">
+                                        <p>2020.01.01 ~ 2020.01.01</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="../assets/js/ui.js"></script>
+</body>
+</html>
